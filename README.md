@@ -13,7 +13,7 @@ There are 2 ways to create sftp connection.
 ```php
 /** Creating new connection and getting information about files and folders in current directory */
 $sftp = SftpConnectorFactory::createConnection([
-            'host' => 'my.website.ru',
+            'host' => 'test.website.com',
             'username' => 'login',
             'password' => 'password'
         ]);
