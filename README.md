@@ -20,3 +20,7 @@ $sftp = SftpConnectorFactory::createConnection([
 print_r($sftp->ls('.'));  
 ```
 2. Create `adapter` extends `AbstractAdapter` class and override `getConfig` method. You may find the example file in repository, `src/adapter/TestAdapter`.
+
+
+## Notes
+Supports only `auth_none` and `auth_password` methods.
