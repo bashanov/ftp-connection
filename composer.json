@@ -1,0 +1,24 @@
+{
+    "name": "bashanov/ftp-connector",
+    "description": "Package to establish secure FTP (SFTP) connection via curl or ssh2.",
+    "keywords": ["sftp", "curl", "ssh"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bashanov Evgeny",
+            "email": "jbashanov@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bashanov\\sftp\\": "src/"
+        }
+    }
+}
