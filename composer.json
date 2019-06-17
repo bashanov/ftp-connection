@@ -1,5 +1,5 @@
 {
-    "name": "bashanov/ftp-connector",
+    "name": "bashanov/sftp-connector",
     "description": "Package to establish secure FTP (SFTP) connection via curl or ssh2.",
     "keywords": ["sftp", "curl", "ssh"],
     "license": "MIT",
