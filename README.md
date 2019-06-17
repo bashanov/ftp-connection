@@ -1,5 +1,5 @@
 # sftp-connector
-Lib to establish SFTP connection via curl or ssh2
+Library helps to establish SFTP connection and work with files and folders via curl or ssh2.
 
 ## Install
 Use composer to install
